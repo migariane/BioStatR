@@ -4,11 +4,11 @@
 que es un texto de referencia para la estadística médica con R que cubre los conceptos básicos con rigor matemático y un enfoque computacional aplicado a la práctica de la medicina y las ciencias de la salud.
 Para mayor informacion sobre el libro, visite el sitio web del libro o consulte el repositorio de GitHub del libro. 
 La función principal de este paquete es proporcionar rutinas de bioestadística que se utilizan en el libro, pero también se pueden usar de forma independiente para análisis estadísticos en medicina y ciencias de la salud.
-Para información sobre **BioStatR** visite: [https://migariane.github.io/BioStatR/](https://migariane.github.io/BioStatR/)
+Para información sobre **BioStatR** visite: [https://migariane.github.io/BioStatR/](https://migariane.github.io/BioStatR/)
 
-## Introducción y Tutorial
+## Introducción y Tutorial
 
-Puede consultar la viñeta (tutorial) introductoria del paquete en: [Introducción a BioStatR](articles/BioStatR-overview.html)
+Puede consultar la viñeta (tutorial) introductoria del paquete en: [Introducción a BioStatR](articles/BioStatR-overview.html)  
 Puede instalar la versión de desarrollo de BioStatR desde [GitHub](https://github.com/migariane/BioStatR) con:
 
 ```r
