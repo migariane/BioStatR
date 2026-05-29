@@ -2,32 +2,32 @@
 
 Este paquete ha sido desarrollado como soporte del libro [MatematicaEstadisticaMedica](https://github.com/migariane/MatematicaEstadisticaMedica).
 
-This is the BioStatR R package.
+BioStatR es un paquete de R para rutinas de bioestadística.
 
-## Installation
+## Instalación
 
-### From GitHub (Development version)
-Esta version en desarrollo del paquete BioStatR puede ser instalada desde [GitHub](https://github.com/migariane/BioStatR) with:
+### Desde GitHub (Versión de desarrollo)
+Puede instalar la versión de desarrollo de BioStatR desde [GitHub](https://github.com/migariane/BioStatR) con:
 
 ```r
 # install.packages("remotes")
 remotes::install_github("migariane/BioStatR")
 ```
 
-*Note: This method is recommended as it automatically builds the package for your specific operating system (Windows, macOS, or Linux).*
+*Nota: Se recomienda este método ya que construye automáticamente el paquete para su sistema operativo específico (Windows, macOS o Linux).*
 
-### From Local Files
-You can also install the package from the provided files in the repository:
+### Desde archivos locales
+También puede instalar el paquete desde los archivos proporcionados en el repositorio:
 
 ```r
-# For .tar.gz (Source, cross-platform)
+# Para .tar.gz (Fuente, multiplataforma)
 install.packages("path/to/BioStatR_1.0.0.tar.gz", repos = NULL, type = "source")
 
-# For .tgz (macOS binary)
+# Para .tgz (Binario de macOS)
 install.packages("path/to/BioStatR_1.0.0.tgz", repos = NULL, type = "binary")
 
-# For .zip (Windows binary)
+# Para .zip (Binario de Windows)
 install.packages("path/to/BioStatR_1.0.0.zip", repos = NULL, type = "binary")
 ```
 
-*Note: The Windows binary (`.zip`) should be built on a Windows machine using `devtools::build(binary = TRUE)` to ensure compatibility.*
+*Nota: El binario de Windows (`.zip`) debe construirse en una máquina con Windows usando `devtools::build(binary = TRUE)` para asegurar la compatibilidad.*
