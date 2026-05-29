@@ -26,7 +26,7 @@ grpsggp<-function(x=NULL,f=NULL,se=NULL,ggid=1,lbls=NULL,bins=NULL,hnmin=50)
   #Nombre de las variables
   nx<-length(x)
   xname<-deparse(substitute(x))
-  ifelse(is.null(f), fname<-"", fname<-deparse(substitute(f)))
+  if (is.null(f)) { fname<-"" } else { fname<-deparse(substitute(f)) }
   if(!is.null(lbls)){
     xname<-lbls[1]
     if(length(lbls)>1) fname<-lbls[2]

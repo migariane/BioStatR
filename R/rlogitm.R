@@ -181,7 +181,7 @@ rlogitm <- function(f, data = NULL, pred = NULL, grf = FALSE, alfa = 0.05, conf 
 
   # Grafico ROC
   if (grf) {
-    library(ggplot2)
+    if (!requireNamespace("ggplot2", quietly = TRUE)) stop("ggplot2 required")
     # Calcular AUC e IC
     auc_val <- pROC::auc(roc_obj)
     ci_auc <- pROC::ci.auc(roc_obj)
