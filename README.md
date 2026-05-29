@@ -46,7 +46,7 @@ Si necesita la referencia en formato BibTeX para su artículo académico, pued
 ```bibtex
 @Manual{,
   title = {BioStatR: Rutinas de bioestadística},
-  author = {Pedro Jesús Femia Marzo & Miguel Angel Luque Fernandez},
+  author = {Pedro Jesús Femia Marzo & Miguel Ángel Luque Fernández},
   year = {2026},
   note = {R package version 1.0.0},
   url = {https://github.com/migariane/BioStatR},
@@ -56,7 +56,7 @@ Si necesita la referencia en formato BibTeX para su artículo académico, pued
 ### Cita del libro de soporte
 Si utiliza este paquete en su investigación, le agradeceríamos que cite también el libro de texto de soporte:
 
-*   **Referencia:** Femia, P., & Luque Fernandez, M. A. *Matemática Estadística Médica con R*.
+*   **Referencia:**Miguel Ángel Luque Fernández. *Matemática Estadística Médica con R*. 2026
 *   **Enlace:** [Matemática Estadística Médica con R](https://migariane.github.io/MatematicaEstadisticaMedicinaR/)
 *   **https://migariane.github.io/MatematicaEstadisticaMedicinaR/**
 
