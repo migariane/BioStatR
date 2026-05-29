@@ -25,3 +25,5 @@ install.packages("path/to/BioStatR_1.0.0.tgz", repos = NULL, type = "binary")
 # For .zip (Windows binary)
 install.packages("path/to/BioStatR_1.0.0.zip", repos = NULL, type = "binary")
 ```
+
+*Note: The Windows binary (`.zip`) should be built on a Windows machine using `devtools::build(binary = TRUE)` to ensure compatibility.*
