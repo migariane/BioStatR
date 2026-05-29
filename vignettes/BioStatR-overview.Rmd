@@ -1,10 +1,10 @@
 ---
-title: "Introducción a BioStatR"
+title: "Introducción a BioStatR"
 author: "Pedro Femia Marzo, Miguel Angel Luque Fernandez"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{Introducción a BioStatR}
+  %\VignetteIndexEntry{Introducción a BioStatR}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
@@ -21,26 +21,41 @@ library(BioStatR)
 data(osteo)
 ```
 
-## Introducción
+## Introducción
 
-Este paquete proporciona una colección de rutinas estadísticas automatizadas, desarrolladas como soporte para el libro [Matemática Estadística Médica con R](https://github.com/migariane/MatematicaEstadisticaMedicinaR).
+Este paquete proporciona una colección de rutinas estadísticas automatizadas para el análisis descriptivo, y la estadística inferencial clásica, desarrolladas como soporte para el libro [Matemática Estadística Médica con R](https://github.com/migariane/MatematicaEstadisticaMedicinaR).
 
 ## Uso
 
-A continuación se muestran ejemplos básicos de uso de las funciones principales.
+A continuación se muestran ejemplos básicos de uso de las funciones principales para la modelización lineal y logística.
 
-### Regresión Lineal Simple
+### Regresión Lineal Simple
 
 ```{r rls}
-# Ejemplo de regresión lineal simple
-rls(imc ~ peso, data = osteo)
+# Ejemplo de regresión lineal simple
+rls(imc ~ peso, data = osteo, grf=F)
 ```
 
-### Regresión Logística Simple
+### Regresión Lineal Múltiple
+
+```{r rlm}
+# Ejemplo de regresión lineal múltiple
+new_data <- data.frame(peso = c(70, 80), talla = c(170, 180))
+rlm(imc ~ peso + talla, data = osteo, pred = new_data, grf=F)
+```
+
+### Regresión Logística Simple
 
 ```{r rlogits}
-# Ejemplo de regresión logística simple
+# Ejemplo de regresión logística simple
 rlogits(osteo_cue ~ imc, data = osteo)
 ```
 
-Para más información, consulte la documentación individual de cada función mediante `?funcion`.
+### Regresión Logística Múltiple
+
+```{r rlogitm, warning=F}
+# Ejemplo de regresión logística múltiple
+rlogitm(osteo_cue ~ imc + edad + tevol, data = osteo, grf=T)
+```
+
+Para más información, consulte la documentación individual de cada función mediante `?funcion`.
