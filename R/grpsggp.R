@@ -14,9 +14,11 @@
 #' @importFrom ggplot2 geom_pointrange aes facet_wrap geom_bar geom_boxplot geom_col geom_dotplot
 #' @importFrom ggplot2 geom_errorbar geom_freqpoly geom_histogram geom_hline geom_jitter
 #' @importFrom ggplot2 geom_linerange geom_point geom_pointrange geom_smooth geom_violin ggplot
-
+#' @importFrom methods show
+#' @export grpsggp
 
 grpsggp<-function(x=NULL,f=NULL,se=NULL,ggid=1,lbls=NULL,bins=NULL,hnmin=50)
+
   {
   # entra x como vector que puede estar segmentado por f (2 muestras) o no segmentado (1 muestra)
 
