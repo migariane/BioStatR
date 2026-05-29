@@ -2,6 +2,9 @@
 
 **BioStatR**: Bioestadística con R ha sido desarrollado como soporte docente para el libro [Matemática Estadística Médica con R](https://migariane.github.io/MatematicaEstadisticaMedicinaR/)
 que es un texto de referencia para la estadística médica con R que cubre desde los conceptos básicos con rigor matemático y un enfoque computacional aplicado a la práctica de la medicina y las ciencias de la salud.
+Para mayor informacion sobre el libro, visite el sitio web del libro o consulte el repositorio de GitHub del libro. 
+La función principal de este paquete es proporcionar rutinas de bioestadística que se utilizan en el libro, pero también se pueden usar de forma independiente para análisis estadísticos en medicina y ciencias de la salud.
+Para informació sobre **BioStatR** visite: migariane/github.io/BioStatR
 
 ## Instalación
 
