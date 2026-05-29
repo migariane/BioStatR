@@ -17,5 +17,5 @@ jobs:
         with:
           extra-packages: any::pkgdown, local::.
           needs: website
-      - uses: r-lib/actions/build-pkgdown@v1
-      - uses: r-lib/actions/deploy-pkgdown@v1
+      - name: Build site
+        run: pkgdown::build_site_github_pages()
