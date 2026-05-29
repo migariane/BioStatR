@@ -2,9 +2,8 @@ Package: BioStatR
 Title: Biostatistics Routines in R
 Description: Library of functions that automate some analytical procedures proper to Biostatistics.
 Version: 1.0.0
-Author: Pedro Femia Marzo [aut, cre],
-        Miguel Angel Luque Fernandez [aut, cre]
-Maintainer: Pedro Femia Marzo <pfemia@ugr.es>, Miguel Angel Luque Fernandez <mluquefe@ugr.es>
+Author: Pedro Femia Marzo [aut, cre]
+Maintainer: Pedro Femia Marzo <pfemia@ugr.es>
 Type: Package
 Authors@R: c(
     person(given="Pedro", 
@@ -13,11 +12,11 @@ Authors@R: c(
            email="pfemia@ugr.es"),
     person(given="Miguel Angel",
            family="Luque Fernandez",
-           role = c("aut", "cre"),
+           role = c("aut"),
            email="mluquefe@ugr.es"))
 Depends: R (>= 3.5.0)
 Imports: stats, ggplot2, methods, graphics, ResourceSelection, pROC
-License: LGPL-3
+License: LGPL-3 + file LICENSE
 NeedsCompilation: no
 Encoding: UTF-8
 LazyData: true
