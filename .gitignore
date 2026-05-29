@@ -1,0 +1,16 @@
+# History
+.Rhistory
+.Rapp.history
+
+# RStudio
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# Git
+.DS_Store
+
+# Binaries
+*.tar.gz
+*.tgz
