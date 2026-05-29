@@ -12,6 +12,7 @@
 #' @importFrom stats lm na.exclude rstandard shapiro.test predict formula model.frame confint sd
 #' @importFrom ggplot2 ggplot aes geom_point geom_hline geom_smooth labs geom_histogram geom_dotplot
 #' @importFrom graphics par plot
+#' @export rlm
 
 #' @examples
 #' # Example 1 - Basic usage
