@@ -1,5 +1,7 @@
 # BioStatR
 
+Este paquete ha sido desarrollado como soporte del libro [MatematicaEstadisticaMedica](https://github.com/migariane/MatematicaEstadisticaMedica).
+
 This is the BioStatR R package.
 
 ## Installation
