@@ -76,7 +76,7 @@ rl<-function(f,data=NULL){
 #' @param decs valor entero: precision decimal para la salida de resultados. Por defecto = 4.
 #' @return Informe con medidas descriptivas, correlaciones, estimacion de los parametros de regr. lineal, descriptiva residual y graficos de dispersion y de la distribucion residual
 #' @importFrom methods show
-#' @importFrom stats cor cor.test cov lm na.exclude rstandard sd var shapiro.test
+#' @importFrom stats cor cor.test cov lm na.exclude rstandard sd var shapiro.test fitted terms
 #' @importFrom ggplot2 ggplot aes geom_dotplot geom_histogram geom_point geom_smooth geom_ribbon
 #' @importFrom ggplot2 ggplot geom_linerange labs
 #' @export rls
@@ -93,7 +93,7 @@ rl<-function(f,data=NULL){
 #' # Ejemplo 4 - Obtencion de la matriz con residuos y pronosticos
 #' tabla<-rls(post~pre, data=datos,dfout=TRUE)
 #' head(tabla)
-
+#' @export
 rls<-function(y=NULL,x=NULL,data=NULL,pred=NULL,grf=TRUE,dfout=F ,alfa=0.05,conf=1-alfa, decs=3){
   # ejemplos de entrada de datos:
     # como formula:
