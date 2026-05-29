@@ -1,0 +1,46 @@
+---
+title: "Introducción a BioStatR"
+author: "Pedro Femia Marzo, Miguel Angel Luque Fernandez"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introducción a BioStatR}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(BioStatR)
+data(osteo)
+```
+
+## Introducción
+
+Este paquete proporciona una colección de rutinas estadísticas automatizadas, desarrolladas como soporte para el libro [Matemática Estadística Médica con R](https://github.com/migariane/MatematicaEstadisticaMedicinaR).
+
+## Uso
+
+A continuación se muestran ejemplos básicos de uso de las funciones principales.
+
+### Regresión Lineal Simple
+
+```{r rls}
+# Ejemplo de regresión lineal simple
+rls(imc ~ peso, data = osteo)
+```
+
+### Regresión Logística Simple
+
+```{r rlogits}
+# Ejemplo de regresión logística simple
+rlogits(osteo_cue ~ imc, data = osteo)
+```
+
+Para más información, consulte la documentación individual de cada función mediante `?funcion`.
