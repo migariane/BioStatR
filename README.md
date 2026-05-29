@@ -34,12 +34,27 @@ install.packages("path/to/BioStatR_1.0.0.zip", repos = NULL, type = "binary")
 
 ## Cómo citar este paquete
 
-Para citar este paquete en sus publicaciones, puede utilizar el siguiente comando en R para obtener la referencia bibliográfica:
+Para obtener la referencia bibliográfica del paquete en R, ejecute:
 
 ```r
 citation("BioStatR")
 ```
 
-Si utiliza este paquete en un artículo académico, le agradeceríamos que cite también el libro de texto que le sirve de soporte:
+Si necesita la referencia en formato BibTeX para su artículo académico, puede usar la siguiente estructura:
 
-*   **Libro de referencia:** [MatematicaEstadisticaMedica](https://github.com/migariane/MatematicaEstadisticaMedica).
+### Cita del paquete
+```bibtex
+@Manual{,
+  title = {BioStatR: Rutinas de bioestadística},
+  author = {Pedro Femia and Miguel Angel Luque Fernandez},
+  year = {2026},
+  note = {R package version 1.0.0},
+  url = {https://github.com/migariane/BioStatR},
+}
+```
+
+### Cita del libro de soporte
+Si utiliza este paquete en su investigación, le agradeceríamos que cite también el libro de texto de soporte:
+
+*   **Referencia:** Femia, P., & Luque Fernandez, M. A. *Matemática Estadística Médica*.
+*   **Enlace:** [MatematicaEstadisticaMedica](https://github.com/migariane/MatematicaEstadisticaMedica)
