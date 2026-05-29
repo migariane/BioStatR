@@ -13,12 +13,15 @@ remotes::install_github("migariane/BioStatR")
 ```
 
 ### From Local Files
-You can also install the package from the provided binary files (`.tar.gz` or `.tgz`) in the repository:
+You can also install the package from the provided files in the repository:
 
 ```r
-# For .tar.gz
+# For .tar.gz (Source, cross-platform)
 install.packages("path/to/BioStatR_1.0.0.tar.gz", repos = NULL, type = "source")
 
 # For .tgz (macOS binary)
 install.packages("path/to/BioStatR_1.0.0.tgz", repos = NULL, type = "binary")
+
+# For .zip (Windows binary)
+install.packages("path/to/BioStatR_1.0.0.zip", repos = NULL, type = "binary")
 ```
