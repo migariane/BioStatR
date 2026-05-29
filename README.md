@@ -1,8 +1,9 @@
 # BioStatR
 
-Este paquete ha sido desarrollado como soporte del libro [Matemática Estadística Médica con R](https://migariane.github.io/MatematicaEstadisticaMedicinaR/).
+Este paquete de R ha sido desarrollado como soporte para el libro [Matemática Estadística Médica con R](https://migariane.github.io/MatematicaEstadisticaMedicinaR/).
+que es un libro de texto de estadística médica con R que cubre desde los conceptos básicos con rigor matemático y un enfoque en la aplicación práctica en el campo de la medicina.
 
-Bioestadística con R: BioStatR es un paquete de R para rutinas de básicas de bioestadística.
+**BioStatR**: Bioestadística con R es un paquete diseñado para las rutinas clásicas de bioestadística en el ámbiot de las ciencias de la salud.
 
 ## Instalación
 
@@ -15,22 +16,6 @@ remotes::install_github("migariane/BioStatR")
 ```
 
 *Nota: Se recomienda este metodo ya que construye automáticamente el paquete para su sistema operativo específico (Windows, macOS o Linux).*
-
-### Desde archivos locales
-También puede instalar el paquete desde los archivos proporcionados en el repositorio:
-
-```r
-# Para .tar.gz (Fuente, multiplataforma)
-install.packages("path/to/BioStatR_1.0.0.tar.gz", repos = NULL, type = "source")
-
-# Para .tgz (Binario de macOS)
-install.packages("path/to/BioStatR_1.0.0.tgz", repos = NULL, type = "binary")
-
-# Para .zip (Binario de Windows)
-install.packages("path/to/BioStatR_1.0.0.zip", repos = NULL, type = "binary")
-```
-
-*Nota: El binario de Windows (`.zip`) debe construirse en una máquina con Windows usando `devtools::build(binary = TRUE)` para asegurar la compatibilidad.*
 
 ## Cómo citar este paquete
 
@@ -58,5 +43,4 @@ Si utiliza este paquete en su investigación, le agradeceríamos que cite tamb
 
 *   **Referencia:** Miguel Ángel Luque Fernández. *Matemática Estadística Médica con R*. 2026
 *   **Enlace:** [Matemática Estadística Médica con R](https://migariane.github.io/MatematicaEstadisticaMedicinaR/)
-*   **https://migariane.github.io/MatematicaEstadisticaMedicinaR/**
 
