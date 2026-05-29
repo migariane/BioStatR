@@ -135,8 +135,7 @@ grpsggp<-function(x=NULL,f=NULL,se=NULL,ggid=1,lbls=NULL,bins=NULL,hnmin=50)
       geom_errorbar(mapping=aes(level,ymin=li,ymax=ls),width=0.3)+
 
       labs(x=fname,y=xname);
-      ifelse(min(x)>=0, gg[[k]] <-gg2+geom_col(mapping=aes(x=level,y=m),alpha=0.15),
-                        gg[[k]] <-gg2)
+      if(min(x)>=0) { gg[[k]] <-gg2+geom_col(mapping=aes(x=level,y=m),alpha=0.15) } else { gg[[k]] <-gg2 }
   }
 
   k=10 #barras
