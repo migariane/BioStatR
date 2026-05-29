@@ -34,8 +34,12 @@ install.packages("path/to/BioStatR_1.0.0.zip", repos = NULL, type = "binary")
 
 ## Cómo citar este paquete
 
-Para citar este paquete en sus publicaciones, puede utilizar el siguiente comando en R:
+Para citar este paquete en sus publicaciones, puede utilizar el siguiente comando en R para obtener la referencia bibliográfica:
 
 ```r
 citation("BioStatR")
 ```
+
+Si utiliza este paquete en un artículo académico, le agradeceríamos que cite también el libro de texto que le sirve de soporte:
+
+*   **Libro de referencia:** [MatematicaEstadisticaMedica](https://github.com/migariane/MatematicaEstadisticaMedica).
