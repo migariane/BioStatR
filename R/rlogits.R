@@ -11,7 +11,7 @@
 #' @importFrom stats glm binomial confint predict formula model.frame na.exclude
 #' @importFrom ResourceSelection hoslem.test
 #' @importFrom pROC roc auc coords
-#' @importFrom ggplot2 labs theme_minimal scale_x_continuous scale_y_continuous coord_cartesian
+#' @importFrom ggplot2 labs theme_minimal scale_x_continuous scale_y_continuous coord_cartesian theme_classic geom_abline scale_x_reverse
 #' @export rlogits
 #' @examples
 #' # Ejemplo 1 - Uso basico
@@ -194,7 +194,8 @@ rlogits <- function(f, data = NULL, pred = NULL, grf = FALSE, alfa = 0.05, conf 
       labs(title = paste(get_msg("roc_main"), "\n", auc_label), 
            x = get_msg("roc_xlab"), 
            y = get_msg("roc_ylab")) +
-      geom_abline(intercept = 1, slope = 1, linetype = "dashed", color = "gray")
+      geom_abline(intercept = 1, slope = 1, linetype = "dashed", color = "gray") +
+      ggplot2::scale_x_reverse(breaks = c(0, 0.25, 0.5, 0.75, 1), labels = c("1.0", "0.75", "0.50", "0.25", "0.0"))
     
     print(p)
   }
