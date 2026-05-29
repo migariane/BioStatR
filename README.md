@@ -1,8 +1,8 @@
 # BioStatR
 
-Este paquete ha sido desarrollado como soporte del libro [MatematicaEstadisticaMedica](https://github.com/migariane/MatematicaEstadisticaMedica).
+Este paquete ha sido desarrollado como soporte del libro [Matematica Estadistica Medica con R](https://github.com/migariane/MatematicaEstadisticaMedicinaR).
 
-BioStatR es un paquete de R para rutinas de bioestadística.
+BioStatR es un paquete de R para rutinas de bioestadística.
 
 ## Instalación
 
@@ -54,7 +54,8 @@ Si necesita la referencia en formato BibTeX para su artículo académico, pued
 ```
 
 ### Cita del libro de soporte
-Si utiliza este paquete en su investigación, le agradeceríamos que cite también el libro de texto de soporte:
+Si utiliza este paquete en su investigación, le agradeceríamos que cite también el libro de texto de soporte:
 
-*   **Referencia:**Luque Fernandez, M. A. *Matemática Estadística Médica con R*. 2026
-*   **Enlace:** [MatematicaEstadisticaMedica](https://github.com/migariane/MatematicaEstadisticaMedica)
+*   **Referencia:** Femia, P., & Luque Fernandez, M. A. *Matemática Estadística Médica con R*.
+*   **Enlace:** [Matematica Estadistica Medica con R](https://github.com/migariane/MatematicaEstadisticaMedicinaR)
+
