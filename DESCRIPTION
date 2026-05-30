@@ -22,6 +22,7 @@ Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.3.3
 VignetteBuilder: knitr
+URL: https://migariane.github.io/BioStatR
 Suggests: 
     knitr,
     rmarkdown,
