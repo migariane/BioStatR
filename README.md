@@ -8,7 +8,7 @@ Para información sobre **BioStatR** visite: [https://migariane.github.io/BioSt
 
 ## Introducción y Tutorial
 
-Puede consultar la viñeta (tutorial) introductoria del paquete en: [Introducción a BioStatR](articles/BioStatR-overview.html)  
+Puede consultar la viñeta (tutorial) introductoria del paquete en: [Introducción a BioStatR](https://migariane.github.io/BioStatR/articles/BioStatR-overview.html)  
 Puede instalar la versión de desarrollo de BioStatR desde [GitHub](https://github.com/migariane/BioStatR) con:
 
 ```r
